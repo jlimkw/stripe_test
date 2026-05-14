@@ -5,3 +5,4 @@
 ### terminal 3: stripe trigger payment_intent.succeeded
 
 Require environment vars STRIPE_SECRET_KEY and WEBHOOK_SECRET
+where WEBHOOK_SECRET will be revealed (left empty) when running "stripe listen"
